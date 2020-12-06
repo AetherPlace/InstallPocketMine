@@ -11,6 +11,7 @@ echo [3/5] Downloading start.cmd...
 powershell -command Invoke-WebRequest https://github.com/pmmp/PocketMine-MP/releases/latest/download/start.cmd -OutFile start.cmd
 echo [4/5] Downloading the PHP runtime...
 powershell -command Invoke-WebRequest https://jenkins.pmmp.io/job/PHP-7.3-Aggregate/lastSuccessfulBuild/artifact/PHP-7.3-Windows-x64.zip -OutFile php.zip
+del "vc_redist.x64.exe" >nul 2>&1
 powershell -command Expand-Archive -LiteralPath './php.zip' -DestinationPath ./
 del "php.zip" >nul 2>&1
 echo [5/5] Done, PocketMine environment set correctly!
