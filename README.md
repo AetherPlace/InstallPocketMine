@@ -8,7 +8,7 @@ On Windows, you need Java 8 to run Geyser; on Linux/MacOS you need wget to get t
 ## Usage
 You only need to execute this command on your Windows machine
 ```bat
-powershell -command Invoke-WebRequest https://raw.githubusercontent.com/AetherPlace/InstallPocketMine/master/pocketmine-dl.bat -OutFile pocketmine-dl.bat && pocketmine-dl.bat
+powershell -command Invoke-WebRequest https://raw.githubusercontent.com/AetherPlace/InstallPocketMine/main/pocketmine-dl.cmd -OutFile pocketmine-dl.bat && pocketmine-dl.bat
 ```
 Now the installer will clean the old installations and download the latest version of PocketMine. After the installing process, the log should be like this:
 ```
