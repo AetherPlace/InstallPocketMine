@@ -1,5 +1,5 @@
 # InstallPocketMine
-InstallPocketMine is a simple script to download and install PocketMine on Windows
+InstallPocketMine is a simple script to download and install PocketMine on Windows.
 Not having a script that installs PocketMine for us, as Linux and Mac OS, made me to come with an idea. This simple script downloads PocketMine with the PHP runtime, then it's done.
 
 ## Usage
